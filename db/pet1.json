@@ -2,7 +2,7 @@
   "id": 1971110322,
   "category": {
     "id": 1,
-    "name": "dog"
+    "name": "ASD4535HGJ"
   },
   "name": "Thor",
   "photoUrls": [
@@ -10,8 +10,8 @@
   ],
   "tags": [
     {
-      "id": 2021,
-      "name": "vacinado"
+      "id": "20210825",
+      "name": "data"
     }
   ],
   "status": "available"
