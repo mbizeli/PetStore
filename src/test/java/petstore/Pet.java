@@ -7,6 +7,8 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.Matchers.contains;
 
 // 3 - Classe
 public class Pet {
@@ -15,7 +17,6 @@ public class Pet {
     String uri = "https://petstore.swagger.io/v2/pet"; //endereço da entidade pet
 
     // 3.2 - métodos (ações que não retornam nenhum valor) e funções (ações que devolvem um resultado)
-
     public String lerJson(String caminhoJson)  throws IOException {
        return new String(Files.readAllBytes(Paths.get(caminhoJson)));
     }
@@ -32,12 +33,16 @@ public class Pet {
         given()  // Dado
                 .contentType("application/json") // comum em API REST - as antigas eram "text/xml"
                 .log().all()
-                .body(jsonBody)
+                .body(jsonBody) //corpo da requisição
         .when() // Quando
                 .post(uri)
         .then() // Então
                 .log().all()
                 .statusCode(200)
+                .body("name", is("Thor")) //corpo da resposta
+                .body("status",is("available"))
+                .body("category.name", is ("dog"))
+                .body("tags.name", contains("vacinado"))
         ;
     }
 }
