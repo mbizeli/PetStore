@@ -31,7 +31,7 @@
     "status": "available"
 }
 HTTP/1.1 200 OK
-%Date: Wed, 25 Aug 2021 13:29:09 GMT
+%Date: Thu, 26 Aug 2021 11:31:23 GMT
  Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -73,7 +73,7 @@
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-%Date: Wed, 25 Aug 2021 13:29:11 GMT
+%Date: Thu, 26 Aug 2021 11:31:25 GMT
  Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -103,3 +103,92 @@
     "status": "available"
 }
 O token é ASD4535HGJ
+Request method:	PUT
+1Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+2				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 1971110322,
+    "category": {
+        "id": 1,
+        "name": "ASD4535HGJ"
+    },
+    "name": "Thor",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+
+        {
+            "id": "20210825",
+            "name": "data"
+
+        }
+    ],
+    "status": "sold"
+}
+HTTP/1.1 200 OK
+%Date: Thu, 26 Aug 2021 11:31:25 GMT
+ Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+ Access-Control-Allow-Origin: *
+6Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
+ Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 1971110322,
+    "category": {
+        "id": 1,
+        "name": "ASD4535HGJ"
+    },
+    "name": "Thor",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+
+        {
+            "id": 20210825,
+            "name": "data"
+
+        }
+    ],
+    "status": "sold"
+}
+Request method:	DELETE
+<Request URI:	https://petstore.swagger.io/v2/pet/1971110322
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+2				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+%Date: Thu, 26 Aug 2021 11:31:26 GMT
+ Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+ Access-Control-Allow-Origin: *
+6Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
+ Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1971110322"
+}
