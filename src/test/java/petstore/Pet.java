@@ -8,7 +8,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.is;
-import static org.hamcrest.Matchers.contains;
+import static org.hamcrest.Matchers.*;
 
 // 3 - Classe
 public class Pet {
@@ -106,6 +106,23 @@ public class Pet {
                 .body("code", is(200))
                 .body("type", is("unknown"))
                 .body("message", is(petID))
+
+        ;
+
+    }
+    @Test // quando não indica a prioridade ele assume como sendo prioridade 0
+    public void consultarPetPorStatus(){
+        String status = "available";
+
+        given() // Dado que - é minha pré-condição
+                .contentType("application/json")
+                .log().all()
+        .when() // Quando - ação a ser feita
+                .get(uri + "/findByStatus?status=" + status)
+        .then() // Então - resultado esperado
+                .log().all()
+                .statusCode(200)
+                .body("name[]", everyItem(equalTo("Thor"))) //estrutura usada para buscar um elemento da lista
 
         ;
 
