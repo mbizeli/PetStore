@@ -2,12 +2,21 @@
 package datadriven;
 
 // 2 - bibliotecas
+import org.json.JSONObject;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import utils.Data;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.is;
 
@@ -18,15 +27,50 @@ public class UserDD {
     Data data; // objeto que representa a classe utils.Data - neste ponto já fizemos a Declaração e a importação da classe
 
     // 3.2 - métodos e funções
+
+    @DataProvider // provedor de dados para os testes
+    public Iterator<Object[]> provider() throws IOException {
+        List<Object[]> testCases = new ArrayList<>(); //guarda toda a lista do CSV
+        //List<String[]> testCases = new ArrayList<>();
+        String[] testCase; // retorna 1 linha do CSV
+        String linha;
+        BufferedReader bufferedReader = new BufferedReader(new FileReader("db/users.csv"));
+        while ((linha = bufferedReader.readLine()) != null){
+            testCase = linha.split(",");
+            testCases.add(testCase);
+        }
+        return testCases.iterator();
+    }
+
+
     @BeforeMethod // antes do método de teste - ver imagem da hierarquia de teste para o TestNG
     public void setup(){
         data = new Data(); // neste ponto nós fizemos a inicialização (ou instância) da classe
 
     }
 
-    @Test
-    public void incluirUsuario() throws IOException{
-        String jsonBody = data.lerJson("db/user1.json"); // neste ponto já estou usando a classe. Lembrar de DIIU (Declara, Importa, Instancia, Usa)
+    @Test (dataProvider = "provider")
+    public void incluirUsuario(
+            String id,
+            String username,
+            String firstName,
+            String lastName,
+            String email,
+            String password,
+            String phone,
+            String userStatus ) throws IOException{
+
+        String jsonBody = new JSONObject()
+            .put("id", id)
+            .put("username", username)
+            .put("firstName", firstName)
+            .put("lastName", lastName)
+            .put("email", email)
+            .put("password", password)
+            .put("phone", phone)
+            .put("userStatus", userStatus)
+            .toString();
+
 
         String userID =
                 given()

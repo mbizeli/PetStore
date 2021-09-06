@@ -11,17 +11,17 @@
 Multiparts:		<none>
 Body:
 {
-    "id": 0,
-    "username": "bdok",
     "firstName": "Bradok",
     "lastName": "Lee",
-"    "email": "bdoklee@teste.com",
     "password": "123456",
+    "userStatus": "0",
     "phone": "11995925844",
-    "userStatus": 0
+    "id": "1010",
+"    "email": "bdoklee@teste.com",
+    "username": "bdok"
 }
 HTTP/1.1 200 OK
-%Date: Mon, 06 Sep 2021 19:21:49 GMT
+%Date: Mon, 06 Sep 2021 22:41:45 GMT
  Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -33,6 +33,44 @@
 {
     "code": 200,
     "type": "unknown",
-%    "message": "9223372000666089801"
+    "message": "1010"
 }
-#O userID Ã© 9223372000666089801
+O userID Ã© 1010
+Request method:	POST
+2Request URI:	https://petstore.swagger.io/v2/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+2				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Fans",
+    "lastName": "Olk",
+    "password": "654321",
+    "userStatus": "0",
+    "phone": "11995929999",
+    "id": "1011",
+    "email": "folk@teste.com",
+    "username": "folk"
+}
+HTTP/1.1 200 OK
+%Date: Mon, 06 Sep 2021 22:41:47 GMT
+ Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+ Access-Control-Allow-Origin: *
+6Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
+ Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1011"
+}
+O userID Ã© 1011
