@@ -21,7 +21,7 @@
     "username": "josesousa"
 }
 HTTP/1.1 200 OK
-%Date: Wed, 08 Sep 2021 22:03:13 GMT
+%Date: Wed, 08 Sep 2021 22:13:57 GMT
  Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -60,7 +60,7 @@
     "username": "josecorreia"
 }
 HTTP/1.1 200 OK
-%Date: Wed, 08 Sep 2021 22:03:14 GMT
+%Date: Wed, 08 Sep 2021 22:13:58 GMT
  Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -99,7 +99,7 @@
     "username": "josepereira"
 }
 HTTP/1.1 200 OK
-%Date: Wed, 08 Sep 2021 22:03:15 GMT
+%Date: Wed, 08 Sep 2021 22:13:59 GMT
  Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -138,7 +138,7 @@
     "username": "josegouveia"
 }
 HTTP/1.1 200 OK
-%Date: Wed, 08 Sep 2021 22:03:16 GMT
+%Date: Wed, 08 Sep 2021 22:14:00 GMT
  Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -177,7 +177,7 @@
     "username": "josesilva"
 }
 HTTP/1.1 200 OK
-%Date: Wed, 08 Sep 2021 22:03:17 GMT
+%Date: Wed, 08 Sep 2021 22:14:00 GMT
  Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -216,7 +216,7 @@
     "username": "joanasousa"
 }
 HTTP/1.1 200 OK
-%Date: Wed, 08 Sep 2021 22:03:17 GMT
+%Date: Wed, 08 Sep 2021 22:14:01 GMT
  Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -255,7 +255,7 @@
     "username": "joanacorreia"
 }
 HTTP/1.1 200 OK
-%Date: Wed, 08 Sep 2021 22:03:18 GMT
+%Date: Wed, 08 Sep 2021 22:14:02 GMT
  Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -294,7 +294,7 @@
 	    "username": "joanapereira"
 	}
 	HTTP/1.1 200 OK
-	%Date: Wed, 08 Sep 2021 22:03:19 GMT
+	%Date: Wed, 08 Sep 2021 22:14:03 GMT
 	 Content-Type: application/json
 	Transfer-Encoding: chunked
 	Connection: keep-alive
@@ -357,7 +357,7 @@
 
 HTTP/1.1 200 OK
 
-%Date: Wed, 08 Sep 2021 22:03:20 GMT
+%Date: Wed, 08 Sep 2021 22:14:04 GMT
 
  Content-Type: application/json
 
@@ -411,7 +411,7 @@ DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
     "username": "joanasilva"
 }
 HTTP/1.1 200 OK
-%Date: Wed, 08 Sep 2021 22:03:21 GMT
+%Date: Wed, 08 Sep 2021 22:14:05 GMT
  Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -450,7 +450,7 @@ DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
     "username": "joanasilva8"
 }
 HTTP/1.1 200 OK
-%Date: Wed, 08 Sep 2021 22:03:22 GMT
+%Date: Wed, 08 Sep 2021 22:14:05 GMT
  Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -489,7 +489,7 @@ DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
     "username": "mariocorreia"
 }
 HTTP/1.1 200 OK
-%Date: Wed, 08 Sep 2021 22:03:23 GMT
+%Date: Wed, 08 Sep 2021 22:14:06 GMT
  Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -528,7 +528,7 @@ DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
     "username": "mariopereira"
 }
 HTTP/1.1 200 OK
-%Date: Wed, 08 Sep 2021 22:03:23 GMT
+%Date: Wed, 08 Sep 2021 22:14:07 GMT
  Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -567,7 +567,7 @@ DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
     "username": "mariogouveia"
 }
 HTTP/1.1 200 OK
-%Date: Wed, 08 Sep 2021 22:03:24 GMT
+%Date: Wed, 08 Sep 2021 22:14:08 GMT
  Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -606,7 +606,7 @@ DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
     "username": "mariosilva2"
 }
 HTTP/1.1 200 OK
-%Date: Wed, 08 Sep 2021 22:03:25 GMT
+%Date: Wed, 08 Sep 2021 22:14:09 GMT
  Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -645,7 +645,7 @@ DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
     "username": "mariosilva"
 }
 HTTP/1.1 200 OK
-%Date: Wed, 08 Sep 2021 22:03:26 GMT
+%Date: Wed, 08 Sep 2021 22:14:09 GMT
  Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -684,7 +684,7 @@ DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
     "username": "mariosousa"
 }
 HTTP/1.1 200 OK
-%Date: Wed, 08 Sep 2021 22:03:27 GMT
+%Date: Wed, 08 Sep 2021 22:14:10 GMT
  Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -723,7 +723,7 @@ DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
 !    "username": "marianapereira"
 }
 HTTP/1.1 200 OK
-%Date: Wed, 08 Sep 2021 22:03:28 GMT
+%Date: Wed, 08 Sep 2021 22:14:11 GMT
  Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -762,7 +762,7 @@ DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
 !    "username": "marianagouveia"
 }
 HTTP/1.1 200 OK
-%Date: Wed, 08 Sep 2021 22:03:28 GMT
+%Date: Wed, 08 Sep 2021 22:14:12 GMT
  Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -801,7 +801,7 @@ DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
     "username": "marianasilva"
 }
 HTTP/1.1 200 OK
-%Date: Wed, 08 Sep 2021 22:03:29 GMT
+%Date: Wed, 08 Sep 2021 22:14:13 GMT
  Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -840,7 +840,7 @@ DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
      "username": "marianasilva2"
 }
 HTTP/1.1 200 OK
-%Date: Wed, 08 Sep 2021 22:03:30 GMT
+%Date: Wed, 08 Sep 2021 22:14:13 GMT
  Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -879,7 +879,7 @@ DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
     "username": "marianasousa"
 }
 HTTP/1.1 200 OK
-%Date: Wed, 08 Sep 2021 22:03:31 GMT
+%Date: Wed, 08 Sep 2021 22:14:14 GMT
  Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -918,7 +918,7 @@ DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
 !    "username": "marianacorreia"
 }
 HTTP/1.1 200 OK
-%Date: Wed, 08 Sep 2021 22:03:32 GMT
+%Date: Wed, 08 Sep 2021 22:14:15 GMT
  Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -957,7 +957,7 @@ DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
      "username": "otaviogouveia"
 }
 HTTP/1.1 200 OK
-%Date: Wed, 08 Sep 2021 22:03:33 GMT
+%Date: Wed, 08 Sep 2021 22:14:16 GMT
  Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -996,7 +996,7 @@ DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
     "username": "otaviosilva"
 }
 HTTP/1.1 200 OK
-%Date: Wed, 08 Sep 2021 22:03:33 GMT
+%Date: Wed, 08 Sep 2021 22:14:17 GMT
  Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -1035,7 +1035,7 @@ DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
     "username": "otaviosilva4"
 }
 HTTP/1.1 200 OK
-%Date: Wed, 08 Sep 2021 22:03:34 GMT
+%Date: Wed, 08 Sep 2021 22:14:18 GMT
  Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -1074,7 +1074,7 @@ DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
     "username": "otaviosousa"
 }
 HTTP/1.1 200 OK
-%Date: Wed, 08 Sep 2021 22:03:35 GMT
+%Date: Wed, 08 Sep 2021 22:14:18 GMT
  Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -1113,7 +1113,7 @@ DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
      "username": "otaviocorreia"
 }
 HTTP/1.1 200 OK
-%Date: Wed, 08 Sep 2021 22:03:36 GMT
+%Date: Wed, 08 Sep 2021 22:14:19 GMT
  Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -1152,7 +1152,7 @@ DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
      "username": "otaviopereira"
 }
 HTTP/1.1 200 OK
-%Date: Wed, 08 Sep 2021 22:03:37 GMT
+%Date: Wed, 08 Sep 2021 22:14:20 GMT
  Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -1191,7 +1191,7 @@ DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
     "username": "brendasilva"
 }
 HTTP/1.1 200 OK
-%Date: Wed, 08 Sep 2021 22:03:38 GMT
+%Date: Wed, 08 Sep 2021 22:14:21 GMT
  Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -1230,7 +1230,7 @@ DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
      "username": "brendasilva3"
  }
  HTTP/1.1 200 OK
- %Date: Wed, 08 Sep 2021 22:03:38 GMT
+ %Date: Wed, 08 Sep 2021 22:14:22 GMT
   Content-Type: application/json
  Transfer-Encoding: chunked
  Connection: keep-alive
@@ -1269,7 +1269,7 @@ DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
 !    "username": "brendasousa"
 !}
 !HTTP/1.1 200 OK
-!%Date: Wed, 08 Sep 2021 22:03:39 GMT
+!%Date: Wed, 08 Sep 2021 22:14:22 GMT
 ! Content-Type: application/json
 !Transfer-Encoding: chunked
 !Connection: keep-alive
@@ -1308,7 +1308,7 @@ DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
 "     "username": "brendacorreia"
 "}
 "HTTP/1.1 200 OK
-"%Date: Wed, 08 Sep 2021 22:03:40 GMT
+"%Date: Wed, 08 Sep 2021 22:14:23 GMT
 " Content-Type: application/json
 "Transfer-Encoding: chunked
 "Connection: keep-alive
@@ -1347,7 +1347,7 @@ DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
 #     "username": "brendapereira"
 #}
 #HTTP/1.1 200 OK
-#%Date: Wed, 08 Sep 2021 22:03:41 GMT
+#%Date: Wed, 08 Sep 2021 22:14:24 GMT
 # Content-Type: application/json
 #Transfer-Encoding: chunked
 #Connection: keep-alive
@@ -1386,7 +1386,7 @@ DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
 $     "username": "brendagouveia"
 $}
 $HTTP/1.1 200 OK
-$%Date: Wed, 08 Sep 2021 22:03:42 GMT
+$%Date: Wed, 08 Sep 2021 22:14:25 GMT
 $ Content-Type: application/json
 $Transfer-Encoding: chunked
 $Connection: keep-alive

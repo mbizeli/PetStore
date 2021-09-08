@@ -64,7 +64,7 @@ public class UserDD {
             String email,
             String password,
             String phone,
-            String userStatus ) throws IOException{
+            String userStatus ) {
 
         String jsonBody = new JSONObject()
             .put("id", id)
