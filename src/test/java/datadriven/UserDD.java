@@ -3,11 +3,11 @@ package datadriven;
 
 // 2 - bibliotecas
 import org.json.JSONObject;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import utils.Data;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -16,7 +16,6 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.is;
 
@@ -24,9 +23,11 @@ import static org.hamcrest.Matchers.is;
 public class UserDD {
     // 3.1 - atributos
     String uri = "https://petstore.swagger.io/v2/user";
-    Data data; // objeto que representa a classe utils.Data - neste ponto jÃ¡ fizemos a DeclaraÃ§Ã£o e a importaÃ§Ã£o da classe
+    Data data; // objeto que representa a classe utils.Data - neste ponto já fizemos a Declaração e a importação da classe
+    int contador; // contar o numero de testes realizados
+    double soma; // somatória dos valores dos registros (brincandeira somando o valor das senhas)
 
-    // 3.2 - mÃ©todos e funÃ§Ãµes
+    // 3.2 - métodos e funções
 
     @DataProvider // provedor de dados para os testes
     public Iterator<Object[]> provider() throws IOException {
@@ -34,7 +35,7 @@ public class UserDD {
         //List<String[]> testCases = new ArrayList<>();
         String[] testCase; // retorna 1 linha do CSV
         String linha;
-        BufferedReader bufferedReader = new BufferedReader(new FileReader("db/users.csv"));
+        BufferedReader bufferedReader = new BufferedReader(new FileReader("db/usersPairwise.csv"));
         while ((linha = bufferedReader.readLine()) != null){
             testCase = linha.split(",");
             testCases.add(testCase);
@@ -43,10 +44,15 @@ public class UserDD {
     }
 
 
-    @BeforeMethod // antes do mÃ©todo de teste - ver imagem da hierarquia de teste para o TestNG
+    @BeforeMethod // antes do método de teste - ver imagem da hierarquia de teste para o TestNG
     public void setup(){
-        data = new Data(); // neste ponto nÃ³s fizemos a inicializaÃ§Ã£o (ou instÃ¢ncia) da classe
+        data = new Data(); // neste ponto nós fizemos a inicialização (ou instância) da classe
+        }
 
+    @AfterClass // depois que a classe terminar de excecutar todos os seus testes
+    public void tearDown(){
+        System.out.println("TOTAL DE REGISTROS = " + contador);
+        System.out.println("SOMA TOTAL = " + soma);
     }
 
     @Test (dataProvider = "provider")
@@ -87,6 +93,10 @@ public class UserDD {
                 .extract()
                         .path("message")
                 ;
-        System.out.println("O userID Ã© " + userID);
+        contador += 1;
+        System.out.println("O userID é " + userID);
+        System.out.println("Essa é a linha nº " + contador);
+
+        soma = soma + Double.parseDouble(password);
     }
 }
